@@ -34,32 +34,45 @@ body > div > div {
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 }
-body > div > div > p:first-child {
+body > div > div > img {
+    max-width: 50%;
+    height: 100%;
+    border-radius: 5px 0 0 5px;
+    -webkit-border-radius: 5px 0 0 5px;
+    -moz-border-radius: 5px 0 0 5px;
+    -ms-border-radius: 5px 0 0 5px;
+    -o-border-radius: 5px 0 0 5px;
+}
+body > div > div > div {
+    display: inline-block;
+    height: 100%;
+}
+body > div > div > div > p:first-child {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 4.5px;
     letter-spacing: 3px;
     color: hsl(228, 12%, 48%);
 } 
-body > div > div > p:nth-child(2) {
+body > div > div > div > p:nth-child(2) {
     font-family: 'Fraunces', serif;
     font-weight: 700;
     font-size: 14px;
     color: hsl(212, 21%, 14%);
 }
-body > div > div > p:last-of-type {
+body > div > div > div > p:last-of-type {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 6.2px;
     color: hsl(228, 12%, 48%);
 }
-body > div > div > span:first-of-type {
+body > div > div > div > span:first-of-type {
     font-family: 'Fraunces', serif;
     font-weight: 700;
     font-size: 14px;
     color: hsl(158, 36%, 37%);
 }
-body > div > div > span:last-of-type {
+body > div > div > div > span:last-of-type {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 6.2px;
