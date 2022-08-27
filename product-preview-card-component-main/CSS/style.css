@@ -82,3 +82,30 @@ body > div > div > div > span:last-of-type {
     bottom: 3px;
     
 }
+
+.cart {
+    width: 100px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 6.2px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    cursor: pointer;
+}
+.cart img {
+    width: 6px;
+    height: 7px;
+    margin-right: 5px;
+}
+.cart:hover {
+    background-color: hsl(158, 34%, 21%);
+}
